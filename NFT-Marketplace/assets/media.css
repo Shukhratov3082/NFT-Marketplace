@@ -1,0 +1,140 @@
+@media (max-width:1340px) {
+    .container {
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 80px 115px;
+    }
+
+    header nav ul {
+        font-size: 20px;
+    }
+
+
+
+    .hero {
+        gap: 72px;
+    }
+
+    .hero__title {
+        max-width: 510px;
+        font-size: 67px;
+    }
+
+    .collection__cards {
+        gap: 29px;
+    }
+
+    .collection__title {
+        font-size: 38px;
+    }
+
+    .collection__paragraph {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 834px) {
+    .container {
+        padding: 80px 72px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .hero {
+        gap: 30px;
+    }
+
+    .hero__left h1 {
+        max-width: 330px;
+        font-size: 38px;
+    }
+
+    .hero__left .pr {
+        max-width: 330px;
+        font-size: 16px;
+        line-height: 22.4px;
+        margin: 20px 0;
+    }
+
+    .hero__right .hero__right-bg {
+        width: 330px;
+    }
+
+    .hero__left-stats {
+        gap: 30px;
+    }
+
+    .hero__left-stats span {
+        font-size: 22px;
+    }
+
+    .hero__left-stats p {
+        font-size: 16px;
+    }
+
+    .cards__card:last-child {
+        display: none;
+    }
+
+    .creators__artists .artists-artist:nth-child(n+7) {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        padding: 40px 30px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header .logo span {
+        font-size: 4vw;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero__title {
+        margin: 0 auto;
+    }
+
+    .hero__right-bg {
+        width: 100%;
+    }
+
+    .hero__paragraph {
+        font-size: 16px;
+        margin: 10px 0 40px;
+    }
+
+    .hero__left-stats {
+        gap: 22px;
+        justify-content: center;
+    }
+
+    .browse__title {
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+
+    .browse__categories {
+        grid-template-columns: repeat(2, 147px);
+        justify-content: center;
+    }
+
+    .cards__card:nth-child(2) {
+        display: none;
+    }
+}
