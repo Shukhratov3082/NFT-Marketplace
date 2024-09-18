@@ -119,6 +119,14 @@ header nav ul {
 
 }
 
+.hero__right {
+    width: 48%;
+}
+
+.hero__right-bg {
+    width: 100%;
+}
+
 .hero__right-dc {
     padding: 22px 20px;
     background: #3B3B3B;
@@ -127,7 +135,7 @@ header nav ul {
 }
 
 .hero__right-dc span {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 30.8px;
 }
@@ -264,4 +272,187 @@ header nav ul {
 .browse__categories .category span {
     display: block;
     margin: 20px 30px;
+}
+
+
+/* DISCOVER */
+
+
+.discover__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.discover__title .btn {
+    background: transparent;
+    border: 1px solid #A259FF;
+}
+
+.discover__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.card-info {
+    padding: 20px 30px;
+    background: #3B3B3B;
+    border-radius: 0 0 20px 20px;
+}
+
+.card-price,
+.card-bid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #858584;
+    font-size: 12px;
+}
+
+.card-bid {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.card-profile {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 5px 0 25px;
+}
+
+/* MASHROOMS */
+.container-mashroom {
+    background-image: url('../images/card/primary2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 895px;
+    align-content: end;
+}
+
+.mashrooms {
+    display: flex;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+    padding: 80px 200px;
+    align-items: end;
+    height: 100%;
+    font-size: 51px;
+}
+
+.mashrooms-profile {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    background-color: #3B3B3B;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.mashrooms h1 {
+    margin: 30px 0;
+}
+
+.mashrooms .btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.works__title {
+    margin-bottom: 10px;
+}
+
+.works p {
+    margin-bottom: 48px;
+}
+
+.works__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.works__cards .cards-card {
+    max-width: 330px;
+    background: #3B3B3B;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.works__cards img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* DIGEST */
+
+.digest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 60px;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+
+.digest-img,
+.digest-info {
+    width: 50%;
+}
+
+.digest-info h2 {
+    font-size: 64px;
+    line-height: 62px;
+}
+
+.digest-info p {
+    font-size: 32px;
+    line-height: 35.2px;
+    margin: 40px 0 50px;
+    max-width: 570px;
+}
+
+.digest-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 420px;
+}
+
+.digest-form input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 19px 0 20px 20px;
+    border-radius: 20px;
+}
+
+.digest-form input:focus {
+    outline: none;
+}
+
+.digest-form button {
+    background-color: #A259FF;
+    border: none;
+    padding: 19px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.digest-form button:hover {
+    background-color: #8747dc;
 }

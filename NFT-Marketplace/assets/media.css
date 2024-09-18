@@ -20,6 +20,10 @@
         font-size: 67px;
     }
 
+    .hero__right-dc span {
+        font-size: 22px;
+    }
+
     .collection__cards {
         gap: 29px;
     }
@@ -32,11 +36,30 @@
         font-size: 22px;
         margin-top: 10px;
     }
+
+    .container-mashroom {
+        height: 640px;
+    }
+
+    .digest-info h2 {
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+
+    .digest-info p {
+        font-size: 22px;
+        margin: 12px 0 40px;
+    }
+
 }
 
-@media (max-width: 834px) {
+@media (max-width: 835px) {
     .container {
         padding: 80px 72px;
+    }
+
+    header {
+        padding: 34px 72px;
     }
 
     header nav {
@@ -59,10 +82,6 @@
         margin: 20px 0;
     }
 
-    .hero__right .hero__right-bg {
-        width: 330px;
-    }
-
     .hero__left-stats {
         gap: 30px;
     }
@@ -82,11 +101,52 @@
     .creators__artists .artists-artist:nth-child(n+7) {
         display: none;
     }
+
+    .discover__cards .cards-card:last-child {
+        display: none;
+    }
+
+    .digest {
+        gap: 30px;
+        padding: 40px 30px;
+    }
+
+    .digest-info h2 {
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+
+    .digest-info p {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .digest-form {
+        width: 100%;
+        align-items: start;
+        flex-direction: column;
+        background-color: transparent;
+        gap: 16px;
+    }
+
+    .digest-form input {
+        padding: 12px 20px;
+    }
+
+    .digest-form button {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 0;
+    }
 }
 
 @media (max-width:480px) {
     .container {
         padding: 40px 30px;
+    }
+
+    header {
+        padding: 34px 30px;
     }
 
     .btn {
@@ -110,6 +170,10 @@
         margin: 0 auto;
     }
 
+    .hero__right {
+        width: 100%;
+    }
+
     .hero__right-bg {
         width: 100%;
     }
@@ -130,11 +194,39 @@
     }
 
     .browse__categories {
-        grid-template-columns: repeat(2, 147px);
+        grid-template-columns: repeat(2, 152px);
         justify-content: center;
+        gap: 24px;
     }
 
-    .cards__card:nth-child(2) {
+    .browse__categories .category span {
+        margin: 20px;
+    }
+
+    .collection__cards .cards__card:nth-child(2) {
         display: none;
     }
+
+    .creators__title {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .discover__title {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .digest {
+        flex-direction: column;
+        padding: 0;
+        background: transparent;
+    }
+
+    .digest-img,
+    .digest-info {
+        width: 100%;
+    }
+
+
 }
